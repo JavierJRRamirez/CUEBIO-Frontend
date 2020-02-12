@@ -3,6 +3,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { InfoPanelComponent} from './info-panel/info-panel.component';
 import { MapComponent} from './map/map.component';
+import { AppleService } from './apple.service';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
