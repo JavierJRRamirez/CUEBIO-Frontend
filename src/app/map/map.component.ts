@@ -82,10 +82,10 @@ export class MapComponent implements OnInit {
       if(a.treeLatitude != -1 && a.treeLongitude != -1) {
         if(a.propertyOwner == "private") {
           // Adjust the lat/long a little
-          console.log("old tree lat long: " + a.treeLatitude + "," + a.treeLongitude);
+          // console.log("old tree lat long: " + a.treeLatitude + "," + a.treeLongitude);
           a.treeLatitude += this.getRandomAdjustment();
           a.treeLongitude += this.getRandomAdjustment();
-          console.log("new tree lat long: " + a.treeLatitude + "," + a.treeLongitude);
+          // console.log("new tree lat long: " + a.treeLatitude + "," + a.treeLongitude);
 
         }
 
