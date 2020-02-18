@@ -20,9 +20,7 @@ export class AppleService {
 
   getApples(): Observable<any> {
 
-    return this.http.get(this.baseurl + '/apples/', {headers: this.httpHeaders}).pipe(
-    map((data:any) => { return new Apple })
-  );
+    return this.http.get(this.baseurl + '/apples/', {headers: this.httpHeaders});
   }
  
 }
